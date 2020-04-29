@@ -1,0 +1,80 @@
+/*Font*/
+
+@font-face {
+    font-family: 'caviar_dreamsregular';
+    src: url('font/CaviarDreams-webfont.eot');
+    src: url('font/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/CaviarDreams-webfont.woff2') format('woff2'),
+         url('font/CaviarDreams-webfont.woff') format('woff'),
+         url('font/CaviarDreams-webfont.ttf') format('truetype'),
+         url('font/CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*All page*/
+
+body
+{
+    font-family:'caviar_dreamsregular', serif ;
+
+}
+
+#bloc_page
+{
+    width: 90%;
+    margin: auto;
+}
+
+h1
+{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2
+{
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+
+
+/*Header*/
+
+.name
+{
+    color:rgb(0,172,193);
+    font-weight: bold;
+}
+
+.line
+{
+    text-decoration: underline;
+    text-decoration-color:rgb(0,172,193) ;
+}
+
+h1
+{
+    margin-top: 2em;
+    margin-bottom: 0em;
+}
+
+h3
+{
+    margin-top: 0em;
+   
+}
+
+
+
+
+
+/*Section*/
