@@ -67,14 +67,17 @@ h1
     margin-bottom: 0em;
 }
 
-h3
+header h3
 {
     margin-top: 0em;
-   
+    margin-bottom: 5em;
 }
 
 
 
-
-
 /*Section*/
+
+#formation
+{
+    display: flex;
+}
