@@ -77,3 +77,100 @@ header h3
 
 /*Section*/
 
+i
+{
+    float: left;
+}
+
+hr
+{
+    background-color: rgb(0,172,193);
+}
+
+.job
+{
+    width: 40%;
+}
+
+ul
+{
+    color: rgb(0,172,193);
+}
+
+.date
+{
+    color: black;
+}
+
+#web
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bp
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#cap
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bac
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#free
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#prof
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#azur
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dentis
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#artdent
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dentis_lab
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#recommend
+{
+    display: flex;
+
+}
+
+#recommend p
+{
+    width: 60%;
+}
+
+
