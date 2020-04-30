@@ -19,25 +19,32 @@
 body
 {
     font-family:'caviar_dreamsregular', serif ;
-
 }
 
 #bloc_page
 {
-    width: 90%;
+    width:100%;
     margin: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
 }
 
 h1
 {
     font-size: 3em;
     font-weight: normal;
+    margin-top: 15%;
+    margin-bottom: 0px;
 }
 
 h2
 {
-    font-size: 1.3em;
+    font-size: 1em;
     font-weight: bold;
+    border-bottom: 2px solid rgb(248,187,208);
+    padding-bottom: 3%;
 }
 
 h3
@@ -49,43 +56,68 @@ h3
 
 /*Header*/
 
+header
+{
+    width: 100%;
+   
+}
 .name
 {
-    color:rgb(0,172,193);
+    color:rgb(248,187,208);
     font-weight: bold;
 }
 
 .line
 {
-    text-decoration: underline;
-    text-decoration-color:rgb(0,172,193) ;
-}
-
-h1
-{
-    margin-top: 2em;
-    margin-bottom: 0em;
+    border-bottom:1.5px solid rgb(248,187,208);
+ 
 }
 
 header h3
 {
-    margin-top: 0em;
-    margin-bottom: 5em;
+    margin-top: 0px;
+    margin-bottom: 12%;
 }
 
+#head
+{
+    flex-direction: column;
+}
 
 
 /*Section*/
 
-i
+#right
 {
-    float: left;
+    margin-left: 5%;
 }
 
-hr
+#right section
 {
-    background-color: rgb(0,172,193);
+    width: 90%;
 }
+
+#right p
+{
+    font-size: 0.7em;
+}
+
+#right i
+{
+    float: left;
+    padding-right: 5%;
+}
+
+#right h3
+{
+    font-size: 0.9em;
+}
+
+#right h4
+{
+    font-size: 0.7em;
+}
+
 
 .job
 {
@@ -94,12 +126,15 @@ hr
 
 ul
 {
-    color: rgb(0,172,193);
+    color: rgb(248,187,208);
+
 }
+    
 
 .date
 {
     color: black;
+    font-size: 0.7em;
 }
 
 #web
@@ -109,12 +144,6 @@ ul
 }
 
 #bp
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#cap
 {
     display: flex;
     justify-content: space-between;
@@ -138,25 +167,7 @@ ul
     justify-content: space-between;
 }
 
-#azur
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#dentis
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#artdent
-{
-    display: flex;
-    justify-content: space-between;
-}
-
-#dentis_lab
+#labo
 {
     display: flex;
     justify-content: space-between;
@@ -172,5 +183,106 @@ ul
 {
     width: 60%;
 }
+
+
+/*Section left*/
+
+#left
+{
+    width: 20%;
+}
+
+#left section
+{
+    margin-right: 0%;
+}
+
+#back
+{
+   
+    height: auto;
+    background-color: rgb(248,187,208)
+ 
+}
+
+#photo
+{
+    
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+
+#photo img
+{
+    overflow:hidden;
+    border-radius:70px;
+    width:130px;
+    height:130px;
+}
+
+#back h2
+{
+    background-color: rgb(66,66,66);
+    color: rgb(248,187,208);
+    font-size: 1.1em;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: bold;
+
+}
+
+  
+#back p
+{
+    padding-left: 9%;
+    font-size: 0.7em;
+}
+
+#back a
+{
+    color: rgb(66,66,66);
+}
+
+#back a:hover
+{
+    color:rgb(0,151,167);
+}
+
+#about p
+{
+    text-align: justify;
+    padding-right: 9%;
+    padding-bottom: 120%;
+}
+
+#icon i
+{
+    font-size: 2.2em;
+    text-align: center;
+    overflow:hidden;
+    border: 1px solid black;
+    border-radius:70px;
+    width:40px;
+    height:40px;
+}
+
+#icon
+{
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.logo
+{
+    padding-right: 6%;
+    
+}
+
+
+
+
+
 
 
